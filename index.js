@@ -6,6 +6,10 @@ app.get('/hello', (req, res) => {
   res.send('Hello World!')
 })
 
+app.get('/heybaby', (req, res) => {
+    res.send('Hello World! HEYBABY!')
+  })
+
 app.post('/world', (req, res) => {
     res.send('Hello World! POST')
   })
